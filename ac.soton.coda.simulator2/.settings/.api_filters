@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="ac.soton.coda.simulator2" version="2">
+    <resource path="src/ac/soton/coda/internal/simulator2/views/AbstractStatusTableViewer.java" type="ac.soton.coda.internal.simulator2.views.AbstractStatusTableViewer">
+        <filter id="571473929">
+            <message_arguments>
+                <message_argument value="TableViewer"/>
+                <message_argument value="AbstractStatusTableViewer"/>
+            </message_arguments>
+        </filter>
+    </resource>
+</component>

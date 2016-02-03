@@ -1,0 +1,4 @@
+# Tracing options for the ac.soton.coda.simulator2 plug-in
+
+# Common issues
+ac.soton.coda.simulator2/debug=false

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ac.soton.coda.simulator2.feature"
+      label="%featureName"
+      version="0.0.3.qualifier"
+      provider-name="%featureVendor"
+      license-feature="ac.soton.coda.license"
+      license-feature-version="1.0.0.qualifier">
+
+   <description>
+      %featureDescription
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="file://CODA.local"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.ui" version="3.106.1" match="greaterOrEqual"/>
+      <import plugin="org.eventb.core" version="3.2.0" match="compatible"/>
+      <import plugin="de.prob2.ui.eclipse"/>
+      <import plugin="de.prob2.kernel.bundle"/>
+      <import plugin="org.eventb.emf.core"/>
+      <import plugin="ac.soton.eventb.emf.oracle" version="1.0.0" match="compatible"/>
+      <import plugin="org.eclipse.emf.workspace"/>
+      <import plugin="org.eventb.emf.persistence" version="3.4.0" match="greaterOrEqual"/>
+      <import plugin="ac.soton.eventb.emf.components" version="4.0.1" match="greaterOrEqual"/>
+      <import plugin="ac.soton.eventb.emf.diagrams" version="4.0.2" match="greaterOrEqual"/>
+      <import plugin="org.rodinp.core" version="1.7.0" match="greaterOrEqual"/>
+      <import plugin="ac.soton.eventb.statemachines"/>
+      <import plugin="ac.soton.eventb.emf.core.extension" version="4.0.0" match="greaterOrEqual"/>
+      <import plugin="ac.soton.eventb.statemachines.animation2" version="0.0.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.gmf.runtime.diagram.ui"/>
+      <import plugin="ac.soton.eventb.statemachines.diagram"/>
+      <import plugin="org.eclipse.gmf.runtime.diagram.ui.resources.editor" version="1.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.ide" version="3.10.2" match="greaterOrEqual"/>
+      <import plugin="ac.soton.coda.ui" version="0.0.2" match="greaterOrEqual"/>
+      <import plugin="ch.ethz.eventb.utils" version="0.2.2" match="greaterOrEqual"/>
+      <import plugin="org.eventb.core" version="3.2.0" match="greaterOrEqual"/>
+      <import plugin="de.prob2.ui.eclipse" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="de.prob2.kernel.bundle" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.resources" version="3.9.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.10.0" match="greaterOrEqual"/>
+      <import plugin="ac.soton.prob2.utils" version="0.0.1" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="ac.soton.coda.simulator2"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ac.soton.prob2.utils"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

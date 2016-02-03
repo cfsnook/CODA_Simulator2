@@ -2,10 +2,11 @@
 <feature
       id="ac.soton.coda.simulator2.feature"
       label="%featureName"
-      version="0.0.3.qualifier"
+      version="0.0.4.qualifier"
       provider-name="%featureVendor"
-      license-feature="ac.soton.coda.license"
-      license-feature-version="1.0.0.qualifier">
+      plugin="ac.soton.coda.simulator2.branding"
+      license-feature="ac.soton.coda.licence"
+      license-feature-version="1.1.0.qualifier">
 
    <description>
       %featureDescription
@@ -65,5 +66,11 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
+   <plugin
+         id="ac.soton.coda.simulator2.branding"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
 
 </feature>

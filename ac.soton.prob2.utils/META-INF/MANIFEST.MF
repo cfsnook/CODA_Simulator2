@@ -3,7 +3,7 @@ Bundle-Localization: plugin
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
 Bundle-SymbolicName: ac.soton.prob2.utils
-Bundle-Version: 0.0.1.qualifier
+Bundle-Version: 0.0.1.release
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-Vendor: %pluginVendor
 Require-Bundle: org.eventb.core;bundle-version="3.2.0",

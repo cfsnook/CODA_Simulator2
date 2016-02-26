@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: ac.soton.coda.simulator2.doc;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: %pluginVendor

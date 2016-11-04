@@ -58,6 +58,7 @@ import ac.soton.coda.internal.simulator2.utils.Messages;
 import ac.soton.coda.internal.simulator2.utils.Utils;
 import ac.soton.coda.simulator2.Simulator2Plugin;
 import ac.soton.eventb.emf.components.Component;
+import ac.soton.eventb.emf.components.ComponentsPackage;
 import ac.soton.eventb.emf.components.Connector;
 import ac.soton.eventb.emf.components.WakeQueue;
 import ac.soton.eventb.emf.oracle.Entry;
@@ -194,13 +195,17 @@ public class Simulation implements ISimulation {
 		// go through each extension and process components
 		for (AbstractExtension ext : emfMch.getExtensions()) {
 			if (ext instanceof Component) {
-				EList<Component> components = ((Component) ext).getComponents();
+				EList<EObject> components = ((Component) ext)
+						.getAllContained(ComponentsPackage.Literals.COMPONENT,
+								true);
 
 				// For each component, process the state machines, making
 				// distinction between different kind of translation, i.e.,
 				// SINGLEVAR v.s MULTIVAR.
-				for (Component component : components) {
-
+				for (EObject obj : components) {
+					if (obj == null) // TODO @htson this should not happen.
+						continue;
+					Component component = (Component) obj;
 					IComponentStatemachinesStatus compStatus = new ComponentStatemachinesStatus(component);
 
 					EList<Statemachine> stateMachines = component

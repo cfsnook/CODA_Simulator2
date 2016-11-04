@@ -280,9 +280,13 @@ public class Simulation implements ISimulation {
 		// go through each extension and process connectors for each component
 		for (AbstractExtension ext : emfMch.getExtensions()) {
 			if (ext instanceof Component) {
-				EList<Connector> connectors = ((Component) ext).getConnectors();
+				EList<EObject> connectors = ((Component) ext).getAllContained(
+						ComponentsPackage.Literals.CONNECTOR, true);
 
-				for (Connector connector : connectors) {
+				for (EObject obj : connectors) {
+					if (obj == null) // TODO @htson Why is this can be null
+						continue;
+					Connector connector = (Connector) obj;
 					IConnectorStatus connStatus = new ConnectorStatus(connector);
 
 					String name = connector.getName();

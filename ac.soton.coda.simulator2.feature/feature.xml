@@ -2,7 +2,7 @@
 <feature
       id="ac.soton.coda.simulator2.feature"
       label="%featureName"
-      version="0.0.4.release"
+      version="0.0.5.release"
       provider-name="%featureVendor"
       plugin="ac.soton.coda.simulator2.branding"
       license-feature="ac.soton.coda.licence"

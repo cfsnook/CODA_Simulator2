@@ -16,12 +16,12 @@ Help="CODA Simulator 2 (for ProB2) User Manual","chm.hhc","chm.hhk","index.html"
 
 [FILES]
 sec-simulator2-legal.html
+sec-simulator2-user-agreement.html
 sec-simulator2-getting-started.html
-sec-simulator2-concepts.html
 sec-simulator2-tasks.html
+sec-simulator2-concepts.html
 index.html
 sec-simulator2-samples.html
-sec-simulator2-user-agreement.html
 sec-simulator2-reference.html
 
 

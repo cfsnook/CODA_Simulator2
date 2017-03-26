@@ -5,7 +5,8 @@
    <extension
          point="org.eclipse.help.toc">
       <toc
-            file="html/eclipse-toc.xml">
+            file="html/eclipse-toc.xml"
+            primary="true">
       </toc>
    </extension>
 

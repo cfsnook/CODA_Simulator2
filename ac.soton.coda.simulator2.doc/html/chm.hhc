@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<meta name="generator" content="plasTeX - http://plastex.sf.net/">
+<!-- Sitemap 1.0 -->
+</head>
+<body>
+<object type="text/site properties">
+   <param name="Auto Generated" value="Yes">
+</object>
+<ul>
+    <li><object type="text/sitemap">
+        <param name="Name" value="CODA Simulator 2 (for ProB2) User Manual">
+        <param name="Local" value="index.html">
+        
+    </object></li>
+    <ul>
+      
+      <li><object type="text/sitemap">
+          <param name="Name" value="Getting Started">
+          <param name="Local" value="sec-simulator2-getting-started.html">
+          <param name="ImageNumber" value="11">
+      </object></li>
+      
+      
+      <li><object type="text/sitemap">
+          <param name="Name" value="Concepts">
+          <param name="Local" value="sec-simulator2-concepts.html">
+          <param name="ImageNumber" value="11">
+      </object></li>
+      
+      
+      <li><object type="text/sitemap">
+          <param name="Name" value="Tasks">
+          <param name="Local" value="sec-simulator2-tasks.html">
+          <param name="ImageNumber" value="11">
+      </object></li>
+      
+      
+      <li><object type="text/sitemap">
+          <param name="Name" value="Reference">
+          <param name="Local" value="sec-simulator2-reference.html">
+          <param name="ImageNumber" value="11">
+      </object></li>
+      
+      
+      <li><object type="text/sitemap">
+          <param name="Name" value="Samples">
+          <param name="Local" value="sec-simulator2-samples.html">
+          <param name="ImageNumber" value="11">
+      </object></li>
+      
+      
+      <li><object type="text/sitemap">
+          <param name="Name" value="Legal">
+          <param name="Local" value="sec-simulator2-legal.html">
+          
+      </object></li>
+      <ul>
+         
+         <li><object type="text/sitemap">
+             <param name="Name" value="CODA Software User Agreement">
+             <param name="Local" value="sec-simulator2-user-agreement.html">
+             <param name="ImageNumber" value="11">
+         </object></li>
+         
+         
+      </ul>
+      
+    </ul>
+</ul>
+</body>
+</html>

@@ -1,0 +1,28 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=simulator2-user_manual.chm
+Contents file=chm.hhc
+Default Window=Help
+Default topic=index.html
+Display compile progress=Yes
+Error log file=help.log
+Full-text search=Yes
+Index file=chm.hhk
+Language=0x0 
+Title=CODA Simulator 2 (for ProB2) User Manual
+
+[WINDOWS]
+Help="CODA Simulator 2 (for ProB2) User Manual","chm.hhc","chm.hhk","index.html","index.html",,,,,0x73520,,0x383e,[200,200,1000,800],,,,,,,0
+
+[FILES]
+sec-simulator2-legal.html
+sec-simulator2-getting-started.html
+sec-simulator2-concepts.html
+sec-simulator2-tasks.html
+index.html
+sec-simulator2-samples.html
+sec-simulator2-user-agreement.html
+sec-simulator2-reference.html
+
+
+[MERGE FILES]

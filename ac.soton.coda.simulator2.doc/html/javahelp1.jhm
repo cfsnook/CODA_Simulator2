@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<map version="1.0"> 
+<mapID target="toplevelfolder">
+<mapID target="sec:simulator2-getting-started" url="sec-simulator2-getting-started.html" />
+<mapID target="sec:simulator2-concepts" url="sec-simulator2-concepts.html" />
+<mapID target="sec:simulator2-tasks" url="sec-simulator2-tasks.html" />
+<mapID target="sec:simulator2-reference" url="sec-simulator2-reference.html" />
+<mapID target="sec:simulator2-samples" url="sec-simulator2-samples.html" />
+<mapID target="sec:simulator2-legal" url="sec-simulator2-legal.html" />
+<mapID target="sec:simulator2-user-agreement" url="sec-simulator2-user-agreement.html" />
+</mapID>
+</map>

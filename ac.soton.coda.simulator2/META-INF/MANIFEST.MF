@@ -8,8 +8,6 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-Vendor: %pluginVendor
 Require-Bundle: org.eclipse.ui;bundle-version="3.106.1",
  org.eventb.core;bundle-version="[3.2.0,4.0.0)",
- de.prob2.ui.eclipse,
- de.prob2.kernel.bundle,
  org.eventb.emf.core,
  ac.soton.eventb.emf.oracle,
  org.eclipse.emf.workspace,
@@ -19,14 +17,13 @@ Require-Bundle: org.eclipse.ui;bundle-version="3.106.1",
  org.rodinp.core;bundle-version="1.7.0",
  ac.soton.eventb.statemachines,
  ac.soton.eventb.emf.core.extension;bundle-version="4.0.0",
- ac.soton.eventb.statemachines.animation2,
  org.eclipse.gmf.runtime.diagram.ui,
  ac.soton.eventb.statemachines.diagram,
  org.eclipse.gmf.runtime.diagram.ui.resources.editor;bundle-version="1.7.0",
  org.eclipse.ui.ide;bundle-version="3.10.2",
  ac.soton.coda.ui;bundle-version="0.0.0",
  ch.ethz.eventb.utils;bundle-version="0.2.2",
- ac.soton.prob2.utils;bundle-version="0.0.1"
+ ac.soton.eventb.probsupport;bundle-version="[0.0.0,1.0.0)"
 Bundle-ActivationPolicy: lazy
 Bundle-Activator: ac.soton.coda.simulator2.Simulator2Plugin
 Export-Package: ac.soton.coda.internal.simulator2.utils;x-friends:="ac.soton.coda.simulator2.tests"
